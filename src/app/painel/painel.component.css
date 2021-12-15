@@ -1,0 +1,18 @@
+.btn {
+  margin-top: 15px;
+}
+.card {
+  margin-top: 20px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(28, 176, 246, 0.4) 5px 5px, rgba(28, 176, 246, 0.3) 10px 10px,
+    rgba(28, 176, 246, 0.4) 15px 15px, rgba(28, 176, 246, 0.3) 20px 20px,
+    rgba(28, 176, 246, 0.4) 25px 25px;
+
+}
+.form-control {
+  outline: 0;
+  border-color: #cccccc;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
