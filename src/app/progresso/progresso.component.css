@@ -1,0 +1,11 @@
+
+
+
+.progress{
+  background-color: #EEF8DA;
+  border: 1px solid #99CE28;
+  border-radius: 5px;
+}
+.progress-bar{
+  background-color:  #99CE28;
+}
