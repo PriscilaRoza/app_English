@@ -9,11 +9,20 @@
     *ngIf="tipoEncerramento === 'derrota'; else fimDeJogoVitoria"
     class="row"
   >
-    <div class="col d-flex justify-content-center derrota">
-      <h3>Fim de Jogo, infelizmente você perdeu!!!</h3>
-      <button class="btn btn-primary" (click)="reiniciarJogo()">Jogar Novamente
-      </button>
-
+    <div class="col">
+      <h3 class="d-flex justify-content-center derrota">
+        Fim de Jogo. Infelizmente você Perdeu !!! 😢
+      </h3>
+      <hr />
+      <div class="row">
+        <div class="col">
+          <div class="d-flex justify-content-center">
+            <button class="btn btn-primary" (click)="reiniciarJogo()">
+              Jogar Novamente
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </ng-template>
@@ -22,12 +31,18 @@
   <div class="row">
     <div class="col">
       <h3 class="d-flex justify-content-center vitoria">
-        Fim de Jogo. Parabéns você venceu!!!
+        Fim de Jogo. Parabéns você venceu!!! 🙂
       </h3>
       <hr />
-      <button class="btn btn-primary" (click)="reiniciarJogo()"> Jogar Novamente
-      </button>
-
+      <div class="row">
+        <div class="col">
+          <div class="d-flex justify-content-center">
+            <button class="btn btn-primary" (click)="reiniciarJogo()">
+              Jogar Novamente
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </ng-template>
