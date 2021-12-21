@@ -1,6 +1,8 @@
-# App1
+# Aprendendo Inglês
+![image](https://user-images.githubusercontent.com/83733895/146990403-55338eb1-629b-4614-a3ff-3105c2ec4ef2.png)
+This was my second project done in Angular, which I learned in December 2021
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.4.
+Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) version 13.0.4.
 
 ## Development server
 
